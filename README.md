@@ -7,7 +7,8 @@
 ## Структура
 
 1. [Анализ результатов ЕГЭ и ОГЭ](./EGE_OGE_Results/)
+2. [Анализ данных о пингвинах](./Penguins-Eda-And-Preprocessing)
 
-## Обратная связь@most0v
+## Обратная связь
 - Телеграмм - [tg](https://t.me/most0v)
 - Электронная почта - [vladimicev327@gmail.com](mailto:vladimicev327@gmail.com)
