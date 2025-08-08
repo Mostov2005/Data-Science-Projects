@@ -12,7 +12,7 @@
 4. [Анализ данных и Классификация продуктов - KNN и RandomForest](./Food_KNN_and_RandomForest_Classification)
 5. [Анализ данных и Классификация мобильных телефонов – Деревья решений и ансамбли](./MobilePrice_EDA_TreeModels_and_Ensembles)
 6. [Анализ данных и Кластеризация рецептов по ингредиентам](./Recipe_Ingredients_EDA_and_Clustering)
-
+7. [Классификация рукописных цифр с помощью нейросетей](./Digit_Classification-Neural Networks-Multiclass_and_Binary_Tasks)
 
 ## Обратная связь
 - Телеграмм - [tg](https://t.me/most0v)
