@@ -14,6 +14,7 @@
 6. [Анализ данных и Кластеризация рецептов по ингредиентам](./Recipe_Ingredients_EDA_and_Clustering)
 7. [Классификация рукописных цифр с помощью нейросетей](./Digit_Classification-Neural%20Networks-Multiclass_and_Binary_Tasks)
 8. [Анализ изменения климата и временных рядов](./Climate_Change_Time_Series)
+9. [Парсинг и анализ фильмов и сериалов с Kinopoisk и IMDb](./Parsing_and_EDA_film_Kinopoisk_IMDb)
 
 ## Обратная связь
 
