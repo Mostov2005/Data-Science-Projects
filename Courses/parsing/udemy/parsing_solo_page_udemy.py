@@ -63,8 +63,14 @@ def get_udemy_course_info(url: str, locale="ru-RU", headless=False, difficulty="
         rating = rating_elem.get_text(strip=True) if rating_elem else None
 
         # Количество отзывов
-        reviews_elem = soup.select_one('a[data-purpose="rating"] span:nth-of-type(2)')
-        reviews_count = reviews_elem.get_text(strip=True) if reviews_elem else None
+        reviews_elem = soup.select_one('div[class*="ratings"] a')
+        reviews_count = None
+        if reviews_elem:
+            text = reviews_elem.get_text(strip=True)
+            # Ищем цифры внутри скобок
+            match = re.search(r'\(([\d\s]+)\s*', text)
+            if match:
+                reviews_count = int(match.group(1).replace('\xa0', '').replace(' ', ''))
 
         # Количество студентов
         students_elem = soup.select_one('div[data-purpose="enrollment"]')
@@ -121,3 +127,10 @@ def get_result(url: str, difficulty="Все уровни", retries=3):
         sleep(0.2)
 
     return data
+
+
+if __name__ == "__main__":
+    url = "https://www.udemy.com/course/mastering-local-llms-with-ollama-and-python-doing-projects"
+    url_2 = "https://www.udemy.com/course/learn-gecode-programming-from-scratch"
+    url_3 = "https://www.udemy.com/course/docker-container-course-for-beginners"
+    print(get_result(url_2))

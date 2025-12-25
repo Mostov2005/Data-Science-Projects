@@ -47,7 +47,7 @@ for page, courses in all_pages.items():
 
 saved = 0
 
-with ThreadPoolExecutor(max_workers=7) as executor:
+with ThreadPoolExecutor(max_workers=9) as executor:
     futures = [executor.submit(process_course, task) for task in tasks]
     for future in as_completed(futures):
         result = future.result()
@@ -60,4 +60,4 @@ with ThreadPoolExecutor(max_workers=7) as executor:
 
         saved += 1
         print(f"✔ Сохранено {saved} — {result['index']}")
-        time.sleep(0.3)
+        time.sleep(0.1)
