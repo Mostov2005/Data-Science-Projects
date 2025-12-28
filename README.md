@@ -16,6 +16,7 @@
 8. [Анализ изменения климата и временных рядов](./Climate_Change_Time_Series)
 9. [Парсинг и анализ фильмов и сериалов с Kinopoisk и IMDb](./Parsing_and_EDA_film_Kinopoisk_IMDb)
 10. [Парсинг и анализ образовательных курсов, предсказание количества студентов](./Parsing_Courses_EDA_and_RegressionModels)
+11. [Кластеризация вакансий по ролям в сфере данных](./Data_Jobs_EDA_and_Clustering)
 
 ## Обратная связь
 
