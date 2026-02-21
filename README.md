@@ -17,6 +17,8 @@
 9. [Парсинг и анализ фильмов и сериалов с Kinopoisk и IMDb](./Parsing_and_EDA_film_Kinopoisk_IMDb)
 10. [Парсинг и анализ образовательных курсов, предсказание количества студентов](./Parsing_Courses_EDA_and_RegressionModels)
 11. [Кластеризация вакансий по ролям в сфере данных](./Data_Jobs_EDA_and_Clustering)
+12. [Продажи в магазине — прогнозирование временных рядов (Соревнование на Kaggle)](./Store_Sales_EDA_Time_Series_Forecasting)
+
 
 ## Обратная связь
 
